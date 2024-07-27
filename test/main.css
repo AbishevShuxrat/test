@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: indianred;
+}
+.wrapper{
+    width: 1200px;
+    margin: 100px auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: 1px solid;
+    width: 30%;
+    padding: 1rem;
+    background-color: indigo;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.box:hover{
+    box-shadow: 0 20px 30px red;
+    margin-top: -10px;
+    cursor: pointer;
+}
